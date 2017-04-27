@@ -78,7 +78,7 @@ coffeelintPlugin = ->
         # for format
         errorReport = coffeelint.getErrorReport()
         errorReport.lint(
-            file.relative,
+            file.path,
             file.contents.toString(),
             fileOpt,
             fileLiterate
